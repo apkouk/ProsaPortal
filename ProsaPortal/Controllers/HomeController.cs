@@ -27,7 +27,7 @@ namespace ProsaPortal.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
-            Item item = await _cosmosDbService.GetAsync("SELECT * FROM c where c.lang='es'");
+            Item item = await _cosmosDbService.GetAsync("SELECT * FROM c where c.lang='en'");
 
             var cosmoDbDocument = await _cosmosDbService.GetDocument("SELECT * FROM c where c.id='" + item.Id + "'");
                         
