@@ -1,0 +1,35 @@
+﻿CosmosDb
+----------
+Ahora esta que acepta conexiones de todas las networks (ni una rule en el firewall) -> Investigar
+Hacer docker para cosmosdb para trabajar en local 
+Buscar un servicio inegrado para cosmosdb y utlizar la conexion con el key vault
+
+
+Logic APP
+----------
+Podemos mirar de hacer un alogic app para el envio del contact form
+
+
+Images
+----------
+Montar algo estulo CDN o parecido y sacarlas del project
+Prueba esto -> https://stackoverflow.com/questions/59474523/upload-and-retrieve-images-from-azure-blobs-using-net-core-web-api-and-jquery
+
+
+Vault
+---------
+Ver que está funcionado, en el appsettings tenenemos aun la key. Mover los appseting a key vault?
+
+
+Docker
+---------
+
+
+Insights
+---------
+Añadir logs y verlos en el azure
+
+
+DevOps
+---------
+Montar rama de dev y poner un CI/CD in place

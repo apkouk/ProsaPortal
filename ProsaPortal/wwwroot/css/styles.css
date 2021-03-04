@@ -1,0 +1,670 @@
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.navbar-default {
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 10px 2px #2f70a9 !important;
+}
+
+.active {
+    color: #265b8a !important;
+    background-color: transparent;
+    font-weight: bolder;
+    position: relative;
+}
+
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-items li a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-items li a::after {
+    width: 0;
+    content: "";
+    height: 6px;
+    background-color: #fcda20;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    transition: width .1s ease-in-out;
+    border-radius: 10px;
+}
+
+.navbar-items li a.active::after {
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #265b8a !important;
+}
+
+nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #265b8a !important;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #265b8a;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #73bdff;
+}
+
+#intro, #educationContainer, #miscContainer, #personalSkillsContainer {
+    background-color: #F3F3F3;
+}
+
+hr {
+    border-top: 1px solid #999999 !important;
+}
+
+.mainContainer {
+    padding: 0px;
+    width: 100%;
+}
+
+.container {
+    max-width: none !important;
+}
+
+.container-fluid {
+        padding: 0px;
+}
+
+{
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
+    text-align: left;
+    padding: 50px 50px 50px 50px;
+    margin: 0 auto;
+}
+
+.wellcome {
+    color: #245580;
+    font-size: 0.9em;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 2px #24558b;
+    font-variant: petite-caps;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.bootstrapHelper {
+    width: 100%;
+    height: 1px;
+}
+
+.introStart {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+.introImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.contactForm {
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contactEmail, #contactEmail {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.contactItem {
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+.help-block {
+    background-color: black;
+    color: orange !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experienceInfo {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    padding: 50px;
+    border-left: 10px solid steelblue;
+    border-right: 10px solid steelblue;
+}
+
+.linksContainer {
+    margin-bottom: 3em;
+}
+
+.linksWrapper {
+    margin-left: 32%;
+    margin-bottom: 10em;
+}
+
+.githubWrapper {
+    width: 250px;
+    height: 321px;
+    background-color: #303336;
+    padding-top: 3em;
+    margin-right: 3em;
+    float: left;
+}
+
+.linkedinWrapper {
+    float: left;
+}
+
+#lang-select {
+    float: right;
+}
+
+.btnSelectLang {
+    border-radius: 40px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.lang-selected {
+    box-shadow: 0px 0px 1px 1px #265b8a;
+}
+
+.catalonia {
+    background-image: url("../src/images/flag-catalonia.png");
+}
+
+.uk {
+    background-image: url("../src/images/flag-uk.png");
+}
+
+.spain {
+    background-image: url("../src/images/flag-spain.png");
+}
+
+.navbar-default .navbar-brand {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #265b8a !important;
+}
+
+.float-button {
+    position: fixed;
+    transition: all 0.2s ease-in 0s;
+    z-index: 19999;
+    cursor: pointer;
+    padding-top: 5%;
+    float: right;
+    right: 5px;
+}
+
+/* .float-button:hover {
+    right: 5px;
+} */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: none;
+    border-radius: 20px;
+    width: 150%;
+}
+
+.dropdown {
+    position: unset !important;
+    transition: all 0.2s ease-in 0s;
+    z-index: 19999;
+    cursor: pointer;
+    padding-top: 5%;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    /* display: block; */
+    transition-delay: 2ms;
+    padding-right: 50%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.educationChunk {
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border-left: 0.3em solid #265b8a;
+    margin-bottom: 2%;
+}
+
+.educationimg {
+    max-height: 120px;
+    padding-bottom: 1%;
+}
+
+/* p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  } */
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* Phones */
+
+@media (max-width: 380px) {
+    .linksWrapper {
+        margin-left: 17%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 599px) {
+    .bootstrapHelper {
+        background-color: black;
+    }
+    .float-button {
+        margin-top: 15%;
+    }
+    /* .navbar-default .navbar-toggle {
+        margin-right: 20%;
+    } */
+    .introStart {
+        font-size: 22px;
+    }
+    .intro, .techSkills, .personalSkills, .education, .misc, .services, .experienceInfo, .contactItem p {
+        font-size: 15px;
+    }
+    .experience {
+        padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo h1 {
+        font-size: 22px;
+    }
+    .experienceInfo h2 {
+        font-size: 21px;
+    }
+    .experienceInfo h4 {
+        font-size: 16px;
+    }
+    .experienceInfo {
+        padding-left: 20px;
+    }
+    .img-circle {
+        width: 200px;
+        height: 200px;
+    }
+    .contactForm {
+        width: 100%;
+    }
+    #closeInfo {
+        width: 8%;
+        margin-top: 7%;
+    }
+    .linksWrapper {
+        margin-left: 17%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+    .educationChunk {
+        padding: 3%;
+        margin-bottom: 5%;
+    }
+    .educationimg {
+        max-height: 50px;
+        padding-bottom: 1%;
+    }
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 15px;
+    }
+}
+
+/* Tablets  */
+
+@media (min-width: 600px) and (orientation: portrait) {
+    .bootstrapHelper {
+        background-color: red;
+    }
+    .navbar-right {
+        font-size: 10px !important;
+    }
+    .float-button {
+        margin-top: 10%;
+    }
+    #lang-select {
+        float: right;
+        margin-top: -30%;
+    }
+    .introStart {
+        font-size: 40px;
+    }
+    .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
+        font-size: 21px;
+    }
+    .experience {
+        padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo h1 {
+        font-size: 24px;
+    }
+    .experienceInfo h2 {
+        font-size: 22px;
+    }
+    .experienceInfo h4 {
+        font-size: 20px;
+    }
+    .services {
+        font-size: 18px;
+    }
+    .service-item {
+        height: 380px;
+        width: 48% !important;
+    }
+    #closeInfo {
+        width: 6%;
+        margin-top: 3%;
+    }
+    .linksWrapper {
+        margin-left: 15%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+    .navbar-right {
+        font-size: smaller;
+    }
+    .educationChunk {
+        padding: 2%;
+        margin-bottom: 2%;
+    }
+    .educationimg {
+        max-height: 70px;
+        padding-bottom: 1%;
+    }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+    .bootstrapHelper {
+        background-color: red;
+    }
+    .navbar-right {
+        font-size: 9px !important;
+    }
+    .float-button {
+        margin-top: 5%;
+    }
+    #lang-select {
+        float: right;
+        margin-top: -30%;
+    }
+    .introStart {
+        font-size: 40px;
+    }
+    .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
+        font-size: 15px;
+    }
+    .experience {
+        padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo h1 {
+        font-size: 24px;
+    }
+    .experienceInfo h2 {
+        font-size: 22px;
+    }
+    .experienceInfo h4 {
+        font-size: 20px;
+    }
+    .img-circle {
+        width: 200px;
+        height: 200px;
+    }
+    #closeInfo {
+        width: 5%;
+        margin-top: 4%;
+    }
+    .linksWrapper {
+        margin-left: 23%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+    .navbar-right {
+        font-size: smaller;
+    }
+    .educationChunk {
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    .educationimg {
+        max-height: 70px;
+        padding-bottom: 1%;
+    }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 736px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 13%;
+    }
+}
+
+@media (min-width: 812px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 17%;
+    }
+}
+
+/* Tablets landscape */
+
+@media (min-width: 930px) {
+    .bootstrapHelper {
+        background-color: green;
+    }
+    .float-button {
+        margin-top: 1%;
+    }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
+    }
+    .introStart {
+        font-size: 50px;
+    }
+    .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
+        font-size: 21px;
+    }
+    .services {
+        font-size: 18px;
+    }
+    .service-item {
+        height: 350px;
+        width: 48% !important;
+    }
+    #closeInfo {
+        margin-top: 3%;
+    }
+    .linksWrapper {
+        margin-left: 30%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+    .navbar-right {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .bootstrapHelper {
+        background-color: green;
+    }
+    .navbar-right {
+        font-size: 14px !important;
+    }
+    .educationChunk {
+        padding: 2%;
+        margin-bottom: 1%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 23%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+    .linksWrapper {
+        margin-left: 23%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 1200px) {
+    .bootstrapHelper {
+        background-color: blue;
+    }
+    .navbar-right {
+        font-size: 16px !important;
+    }
+    .float-button {
+        margin-top: 0%;
+    }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
+    }
+    .service-item {
+        width: 48% !important;
+    }
+    #closeInfo {
+        width: 3%;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 1366px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .linksWrapper {
+        margin-left: 31%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1800px) {
+    .bootstrapHelper {
+        background-color: yellow;
+    }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
+    }
+    .service-item {
+        height: 280px;
+        width: 48% !important;
+    }
+    #closeInfo {
+        width: 3%;
+        margin-top: 1em;
+    }
+    .linksWrapper {
+        margin-left: 36%;
+    }
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+}

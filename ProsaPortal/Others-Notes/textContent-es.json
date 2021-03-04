@@ -1,0 +1,429 @@
+{
+    "id": "6697c3e5-fa98-437e-928c-72213a4f27b6",
+        "lang": "es",
+            "content": {
+        "intro": {
+            "paragraphs": [
+                "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
+                "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortaleza y algo con lo que realmente disfruto.",
+                "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
+                "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando una buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación, lo mejor del saber no es tenerlo, es compartirlo! También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
+                "¡Hasta la vista!"
+            ],
+                "optionMenu": "Introducción",
+                    "wellcome": "Bienvenido a mi website",
+                        "btnWellcome": "Explícame más..."
+        },
+        "techSkills": {
+            "paragraphs": [
+                "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluida una amplia experiencia en el uso de C#, ASP.NET, Web Forms y SQL Server. Me siento cómodo usando una herramientas de Microsoft, incluidas varias versiones de Visual Studio, Entity Framework, Team Foundation Server y Git. ",
+                "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
+                "A continuación se muestra una breve lista de mis habilidades."
+            ],
+                "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
+                    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
+                        "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+                            "optionMenu": "Tecnologías",
+                                "subTitle1": "Desarrollo",
+                                    "subTitle2": "Conceptos",
+                                        "subTitle3": "Herramientas"
+        },
+        "personalSkills": {
+            "paragraphs": [
+                "Además de ofrecer un sólido conjunto de habilidades técnicas prácticas, creo que mis habilidades interpersonales y mi visión empresarial son activos adicionales que ofrezco a mis clientes. Me siento cómodo en roles de cara al cliente que requieren habilidades blandas para negociar entregables y administrar expectativas de los grupos de interés. ",
+                "A lo largo de mi carrera he gestionado con éxito varios proyectos. Trabajé como analista para recopilar los requisitos de los usuarios y redacté documentación detallada de los mismos. También he gestionado equipos de desarrollo en el extranjero y puedo mentorizar las integrantes de nivel junior del equipo.",
+                "Mis habilidades analíticas son otra fortaleza, y regularmente he podido identificar y resolver ineficiencias dentro de los procesos de desarrollo que han mejorado la velocidad de entrega.",
+                "Soy hablante nativo de español y catalán y puedo hablar fluidamente en inglés."
+            ],
+                "optionMenu": "Skills"
+        },
+        "experiences": {
+            "optionMenu": "Experiència",
+                "experience-items": [
+                    {
+                        "id": 1,
+                        "tag": "desktopPublisher",
+                        "company": "Varies companyies",
+                        "website": "",
+                        "city": "Barcelona",
+                        "role": "Dissenyador/Maquetador",
+                        "dateStart": "Dec 2006",
+                        "dateEnd": "Ago 2008",
+                        "techStack": "",
+                        "description": "Abans d'entrar en el món de la informàtica vaig treballar com a dissenyador i maquetador per varies empreses a l'àrea de Barcelona utilizant majorment Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand i ArtiosCad.",
+                        "tasks": "",
+                        "image": "graphic"
+                    },
+                    {
+                        "id": 2,
+                        "tag": "netLife",
+                        "company": "Net-Life S.L",
+                        "city": "Barcelona",
+                        "website": "",
+                        "role": "Programmer",
+                        "dateStart": "Dec 2009",
+                        "dateEnd": "Mai 2010",
+                        "techStack": "",
+                        "description": "Aquest va ser el meu primer treball en pràctiques com a programador.",
+                        "tasks": [
+                            "Vaig escriure pàgines web fent servir C# (framework 3.5), ASP.NET, SOAP Web Services, HTML, CSS, MS SQL Server, Oracle i Visual Studio 2010."
+                        ],
+                        "image": "netlife"
+                    },
+                    {
+                        "id": 3,
+                        "tag": "btgsa",
+                        "company": "T&G Think & Grow (now Aggity) ",
+                        "city": "Barcelona",
+                        "website": "http://btgsa.com",
+                        "role": "Software Engineer",
+                        "dateStart": "Jun 2010",
+                        "dateEnd": "Mar 2014",
+                        "techStack": "C#, Visual Studio, Oracle, MSSQL Server, TFS (Sharepoint integrated), ASP.NET, HTML, Gembase.",
+                        "description": "At T&G (ara Aggity) vaig treballar com a software engineer focalitzat en tasques de desenvolupament utilitzant l'stack Microsoft. També vaig donar formació als usuaris finals entre d'altres.",
+                        "tasks": [
+                            "Vaig desenvolupar i modificar funcions en el programari d'acord amb les especificacions del client utilitzant Visual Studio 2010, C# i ASP.NET.",
+                            "Vaig dissenyar i implementar bases de dades de MS SQL Server i Oracle que incloïen consultes complexes, procediments emmagatzemats i vistes per a les migracions de dades dels nous clients.",
+                            "Es van corregir problemes de programari i irregularitats en consultes o procediments emmagatzemats (SQL) i en la lògica de negoci en C#.",
+                            "Vaig escriure documentació funcional per a nous clients i capacitar a nous usuaris."
+                        ],
+                        "image": "aggity"
+                    },
+                    {
+                        "id": 4,
+                        "tag": "luxtripper",
+                        "company": "Luxtripper LTD",
+                        "city": "London",
+                        "website": "http://luxtripper.co.uk",
+                        "role": "Project Manager / Developer",
+                        "dateStart": "Gen 2015 ",
+                        "dateEnd": "Ago 2015",
+                        "techStack": "",
+                        "description": "Startup del sector del turisme de luxe per trobar destinacions a nivell mundial segons un algoritme propi. Vaig crear la infraestructura mínima (servidors, backups, control de versions) i els processos d'un departament de programari dirigint un equip de quatre desenvolupadors offshore al Pakistan.",
+                        "tasks": [
+                            "Vaig gestionar diversos projectes interns. Vaig exercir funcions com a analista de negoci per recopilar i escriure requisits de programari per als departaments de vendes i màrqueting.",
+                            "Vaig dissenyar i vaig implementar integracions amb APIs de tercers per a dades de reserves d'hotel. També vaig prototipar una funció de reserva de vols.",
+                            "Vaig dirigir un equip de quatre desenvolupadors offshore al Pakistan.",
+                            "Es va implementar un control de versions TFS i es van establir els processos sobre el mateix (fusions de branques, desplegaments, proves).",
+                            "Implementació de servidors de producció, backup i test usant Rackspace i la plataforma Azure. Còpies de seguretat automatitzades mitjançant scripts perquè les bases de dades, els servidors d'imatges i el codi es puguin guardar al servei Amazon S3.",
+                            "Es van resoldre errors de codificació relacionats amb SQL i lògica de negoci. Contribució a canvis cosmètics.",
+                            "Vaig escriure plans de prova per front i back-end amb TFS en línia.",
+                            "Vaig migrar un bloc de WordPress a un servidor IIS intern migrant les dades de MySQL a MS SQL Server."
+                        ],
+                        "image": "luxtripper"
+                    },
+                    {
+                        "id": 5,
+                        "tag": "membra",
+                        "company": "Membership Engagement Services",
+                        "city": "London",
+                        "website": "http://membra.co.uk",
+                        "role": "Web Developer",
+                        "dateStart": "Ago 2015",
+                        "dateEnd": "Ago 2016",
+                        "techStack": "",
+                        "description": "Es van implementar noves característiques i funcionalitats en un lloc web utilitzat pels hospitals de l'NHS per recopilar i presentar dades d'enquestes als usuaris (gairebé no tenien back-end).",
+                        "tasks": [
+                            "Es va modificar el lloc web perquè fos responsive i així millorar la compatibilitat entre dispositius. Es va afegir una barra de progrés per millorar la UI/UX, entre d'altres funcionalitats.",
+                            "Implementació d'un manteniment per tot el referent a les preguntes/respostes d'enquestes com Ordenar-Modificar-Eliminar (en lloc de fer canvis directament a la base de dades).",
+                            "Múltiples tasques de bases de dades, incloses taules dinàmiques, creació i disseny de taules, procediments emmagatzemats i optimització de consultes. Vaig fer un scripting per automatitzar la importació de dades que va millorar la velocitat de dies a només sis hores.",
+                            "Vaig crear una eina d'administració d'arquitectura de tres nivells que automatitzava i optimitzava les tasques dels administradors de projectes. Desenvolupada amb Bootstrap, Telerik framework, ASP.NET WebForms, C# i MS SQL Server."
+                        ],
+                        "image": "mes"
+                    },
+                    {
+                        "id": 6,
+                        "tag": "mission",
+                        "company": "Mission Communications",
+                        "city": "London",
+                        "website": "http://mission-communications.net",
+                        "role": "Web Developer",
+                        "dateStart": "Ago 2016",
+                        "dateEnd": "Nov 2017",
+                        "techStack": "",
+                        "description": "A Mission Communications vaig poder treballar en diversos projectes de desenvolupament web per a clients de diverses indústries i en particular vaig fer contribucions significatives al desenvolupament de sightseeingpass.com.",
+                        "tasks": [
+                            "Vaig crear un lloc web de comerç electrònic i contingut de notícies/blog que es va integrar amb Facebook, Instagram i Twitter. Vaig fer servir Web Forms, C#, Bootstrap i jQuery.",
+                            "Vaig crear un lloc per a un esdeveniment d'administradors de propietats privades. Aquest lloc protegit amb contrasenya era per mostrar detalls sobre propietats disponibles (imatges, vista general, plànols, etc.). Es va implementar una presentació de diapositives utilitzant la biblioteca Slick JavaScript i Typescript. El lloc permetia als agents immobiliaris enviar correus electrònics individuals o massius als registrants (adjuntant pdfs amb la info de la propietat). Construït en Web Forms, C#, jQuery i Bootstrap.",
+                            "Conversió de llocs web crítics per a l'empresa en aplicacions web ASP.NET per millorar la capacitat de depuració.",
+                            "Es van migrar diversos llocs web a TFS per permetre als desenvolupadors treballar localment, reemplaçant una solució FTP problemàtica.",
+                            "Vaig implementar nous punts finals i correcció d'errors en l'API de l'empresa. L'API es va desenvolupar utilitzant l'arquitectura MVC amb un Entity Framework que apuntava a una base de dades de MS SQL Server.",
+                            "Codi tagractoritzat segons els principis SOLID."
+                        ],
+                        "project": [
+                            "Vaig afegir una nova funció al back-end per sightseeingpass.com per administrar totes les imatges relacionades amb una atracció turística. La funció permetia als usuaris carregar diverses imatges a l’hora i ordenar-les mitjançant drag and drop. Es van utilitzar Web Forms, C#, jQuery i SQL stored procedures per a operacions CRUD.",
+                            "Vaig desenvolupar una nova funció en sightseeingpass.com perquè els usuaris creessin itineraris personalitzats per als recorreguts amb autobús amb la capacitat de seleccionar dates i atraccions d'una llista (utilitzant dades de l'API de l'empresa), creant un mapa de Google amb les rutes més eficients i utilitzant el disseny proveït per la dissenyadora gràfica. Ho vaig fer amb web forms (user control), Bootstrap, C#, JQuery, controladors ASP.NET i API internes.",
+                            "Es va crear una funció utilitzant la API de l'empresa per comparar dades entre sistemes amb alertes de qualsevol diferència. La solució va permetre als usuaris actualitzar dades dispars a través de la base de dades del lloc web amb la base de dades de sistema central amb un sol clic i va permetre que l'equip pogués verificar sota demanda la consistència/coherència entre els sistemes. Es va utilitzar MS SQL Server, API interna i C#.",
+                            "Vaig escriure proves unitàries per validar la reescriptura d'URL i la precisió dels preus de venda a el públic (nombre de persones, tipus de lliurament, tipus de targeta, etc.)."
+                        ],
+                        "image": "mission"
+                    },
+                    {
+                        "id": 7,
+                        "tag": "educo",
+                        "company": "Educo ONG",
+                        "city": "Barcelona",
+                        "website": "https://www.educo.org/",
+                        "role": "Web Developer",
+                        "dateStart": "Mar 2018",
+                        "dateEnd": "Ago 2018",
+                        "techStack": "Kentico CMS, C#, SQL Server, Javascript",
+                        "description": "ONG per vetllar i salvaguardar els drets de la infància. Vaig estar bàsicament cobrint una baixa per maternitat ajudant en el incidental de l'aplicatiu.",
+                        "tasks": [
+                            "Vaig crear un component de crowdfunding a Kentico CMS integrat amb els sistemes de pagament Redsys i Paypal. Vaig fer servir components C#, Javascript, HTML, CSS i Kentico.",
+                            "Correcció de bugs en el lloc web comercial, també en Kentico CMS.",
+                            "Codi Javascript refactorizado d'acord amb els principis SOLID."
+                        ],
+                        "image": "educo"
+                    },
+                    {
+                        "id": 8,
+                        "tag": "wivi",
+                        "company": "Wivi Vision",
+                        "city": "Barcelona",
+                        "website": "https://wivivision.com/",
+                        "role": "Web Developer",
+                        "dateStart": "Oct 2018",
+                        "dateEnd": "Abr 2019",
+                        "techStack": "",
+                        "description": "A causa d'un acord de confidencialitat no se'm permet mostrar públicament cap descripció de cap tasca ni tecnologia durant el meu temps en aquesta startup.",
+                        "tasks": [],
+                        "image": "wivi"
+                    },
+                    {
+                        "id": 9,
+                        "tag": "planeta",
+                        "company": "Grupo Planeta",
+                        "city": "Barcelona",
+                        "website": "https://www.planeta.es/en/learning",
+                        "role": "Web Developer - Team Leader",
+                        "dateStart": "Ago 2018",
+                        "dateEnd": "Dec 2020",
+                        "techStack": "ASP.NET, ASP.NET API, C#, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
+                        "description": "Treballs com a desenvolupador web per a la divisió de formació i universitats del grup on es gestiona des de les webs de captació dels cursos fins a la matriculació en els mateixos i la integració amb les plataformes d'aprenentatge. Els últims 4 mesos vaig actuar com team lead gestionant 6 desenvolupadors i un QA.",
+                        "tasks": [
+                            "Integració de dues marques migrant totes les dades d'una marca (alumnes, matrícules, cursos...) cap a l'altra per preservar l'històric de les mateixes.",
+                            "Solució per a canvi de cabina NAS conflictiva on s'allotjava tota la documentació que es genera durant el procés de matriculació dels alumnes i dels cursos.",
+                            "Vaig modificar el comportament dels dos aplicatius principals per historificar la ingent documentació que es genera en el procés de matriculació. Es van simplificar d'aquesta manera els processos de còpies de seguretat i es va millorar el rendiment de l'aplicació. A més es van aplicar normalitzacions els noms de documents.",
+                            "Creació d'un script en SQL per evitar un exploit conegut del CMS dels llocs web que permet crear superusuaris en els sites.",
+                            "Vaig participar com team leader en els diferents upgrades de 3 dels CMS on corrien una part dels llocs web, aportant ajuda tècnica i funcional quan es requeria i portant a terme els desplegaments.",
+                            "Vaig acabar projecte crític per a l'organització com la migració de l'editor d'exercicis/proves de Flash a HTML5, havent d'utilitzar canvas per la part de preview.",
+                            "Com team lead vaig participar en la planificació i execució per canviar el proveïdor de pagaments dels aplicatius a causa d'un canvi normatiu europeu (3DS)."
+                        ],
+                        "image": "planeta"
+                    }
+                ]
+        },
+        "education": {
+            "optionMenu": "Educación",
+                "education-items": [
+                    {
+                        "id": 1,
+                        "center": "Microsoft Learn",
+                        "date": "Barcelona (2021)",
+                        "title": "Microsoft Certified: Azure Fundamentals",
+                        "desc": "También adquiero nuevos conociemientos con los challenges y los learning paths",
+                        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+                        "image": "az900",
+                        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url"
+                    },
+                    {
+                        "id": 2,
+                        "center": "Pluralsight",
+                        "date": "Barcelona (2019)",
+                        "title": "Varios módulos de aprendizaje y pruebas de nivel",
+                        "desc": "",
+                        "descUrl": "",
+                        "image": "pluralsight",
+                        "url": "https://app.pluralsight.com/profile/francisco-rosa"
+                    },
+                    {
+                        "id": 3,
+                        "center": "Master D",
+                        "date": "Barcelona (2012)",
+                        "title": "Curso programación en Android",
+                        "desc": "",
+                        "descUrl": "",
+                        "image": "masterd",
+                        "url": "https://www.masterd.es/curso-android"
+                    },
+                    {
+                        "id": 4,
+                        "center": "Escola Politècnica Salessians Sarrià",
+                        "date": "Barcelona (2008 - 2010)",
+                        "title": "Técnico superior en Desarrollo de Aplicaciones Informáticas",
+                        "desc": "",
+                        "descUrl": "",
+                        "image": "epps",
+                        "url": "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma"
+                    },
+                    {
+                        "id": 5,
+                        "center": "Escola Bit",
+                        "date": "Barcelona (2009)",
+                        "title": "Programación en Java",
+                        "desc": "",
+                        "descUrl": "",
+                        "image": "escolabit",
+                        "url": "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/"
+                    },
+                    {
+                        "id": 6,
+                        "center": "IES Esteve Terradasi illa",
+                        "date": "Barcelona (2005 - 2007)",
+                        "title": "Técnico superior en Producción Editorial",
+                        "desc": "",
+                        "descUrl": "",
+                        "image": "esteve",
+                        "url": "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/"
+                    }
+                ]
+        },
+        "misc": {
+            "optionMenu": "Mi biblioteca",
+                "optionMenu2": "Conferencias y Meetups",
+                    "books": [
+                        {
+                            "id": 1,
+                            "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+                            "author": "Robert C. Martin"
+                        },
+                        {
+                            "id": 2,
+                            "title": "The Pragmatic Programmer: From Journeyman to Master",
+                            "author": "Gary McLean Hall"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Adaptive Code via C#: Class and Interface Design, Design Patterns, and SOLID Principles",
+                            "author": "David Thomas"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Test Driven Development: By Example",
+                            "author": "Kent Beck"
+                        },
+                        {
+                            "id": 5,
+                            "title": "HEAD FIRST DESIGN PATTERNS",
+                            "author": "Elisabeth Freeman, Eric Freeman, Bert Bates"
+                        },
+                        {
+                            "id": 6,
+                            "title": "The Software Craftsman: Professionalism, Pragmatism, Pride",
+                            "author": "Robert C. Martin, Sandro Mancuso"
+                        },
+                        {
+                            "id": 7,
+                            "title": "Pro ASP.NET Web API Security",
+                            "author": "Badrinarayanan Lakshmiraghavan"
+                        },
+                        {
+                            "id": 8,
+                            "title": "Working Effectively with Legacy Code (Robert C Martin)",
+                            "author": "Michael C. Feathers"
+                        }
+                    ],
+                        "conferences": [
+                            {
+                                "id": 1,
+                                "name": "SOFTWARE CRAFTSMANSHIP LONDON",
+                                "desc": "",
+                                "date": "5-6 October 2017",
+                                "URL": "http://sc-london.com/"
+                            },
+                            {
+                                "id": 2,
+                                "name": "CODENODE",
+                                "desc": "Cuando el tiempo lo permite atiendo a eventos y workshops sobre diferentes materias (el de las promises en javasript estuvo muy bien, por ejemplo)",
+                                "date": "-",
+                                "URL": "https://skillsmatter.com/"
+                            },
+                            {
+                                "id": 3,
+                                "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
+                                "desc": "Sigo lo eventos del Barcelona Meetup Group",
+                                "date": "-",
+                                "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Codebar",
+                                "desc": "Actué como mentor en sus eventos para enseñar programación con javascript o SQL",
+                                "date": "-",
+                                "URL": "https://codebar.io/"
+                            }
+                        ]
+        },
+        "socialMedia": {
+            "optionMenu": "Contacto",
+                "links": [
+                    {
+                        "id": 1,
+                        "name": "GitHub",
+                        "URL": "http://github.com/apkouk",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "name": "LinkedIn",
+                        "URL": "https://www.linkedIn.com/in/pacorosa",
+                        "image": ""
+                    },
+                    {
+                        "id": 3,
+                        "name": "GMail",
+                        "URL": "https://www.linkedIn.com/in/pacorosa",
+                        "image": ""
+                    }
+                ]
+        },
+        "services": {
+            "optionMenu": "Servicios",
+                "title": "Como consultor autónomo ofrezco varios servicios a los clientes que pueden incluir:",
+                    "serviceItems": [
+                        {
+                            "id": 2,
+                            "title": "Database Scripting",
+                            "desc": "A lo largo de los años he trabajado con varias bases de datos, incluida una amplia experiencia con Microsoft SQL Server y Oracle en el diseño de tablas y procedimientos almacenados. Puedo trabajar con bases de datos NoSql como CLoudantDb o MongoDb.",
+                            "image": "database"
+                        },
+                        {
+                            "id": 3,
+                            "title": "System Integration",
+                            "desc": "Mi experiencia incluye un extenso trabajo de integración de sistemas que a menudo ha requerido la capacidad de resolver problemas y trabajar con documentación ambigua o vaga relacionada con software y API de terceros. Puedo navegar por estas áreas para los clientes y desarrollar una solución funcional.",
+                            "image": "systemInt"
+                        },
+                        {
+                            "id": 6,
+                            "title": "Team Management",
+                            "desc": "A lo largo de mi carrera, he dirigido pequeños equipos in situ y en el extranjero o distribuidos. También puedo orientar a los miembros del equipo junior y obtener la aceptación del equipo para que se adhieran a las mejores prácticas.",
+                            "image": "teamMan"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Error Fixing/Code Quality",
+                            "desc": "Uno de mis puntos fuertes es la capacidad de analizar código para identificar errores y áreas de mejora para el rendimiento o la mantenibilidad.",
+                            "image": "errorFix"
+                        },
+                        {
+                            "id": 1,
+                            "title": "Software Development",
+                            "desc": "Durante diez años me he centrado en el trabajo de desarrollo de software y he creado muchas soluciones utilizando C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typecript HTML y CSS. Puedo contribuir al ciclo de vida completo de los proyectos de desarrollo de software desde los requisitos hasta las pruebas y la implementación.",
+                            "image": "softdev"
+                        },
+                        {
+                            "id": 5,
+                            "title": "Software Process Improvement",
+                            "desc": "Puedo revisar el proceso de desarrollo de software para diseñar e implementar nuevos procesos y herramientas. Esto puede incluir implementaciones de nuevas metodologías de desarrollo de software (Agile, Scrum), soluciones de control de código (Git, Team Foundation Server) y buenas prácticas de la industria como revisiones de código.",
+                            "image": "softdevProc"
+                        }
+                    ]
+        }
+    },
+    "_rid": "AvlEANo7IpoEAAAAAAAAAA==",
+        "_self": "dbs/AvlEAA==/colls/AvlEANo7Ipo=/docs/AvlEANo7IpoEAAAAAAAAAA==/",
+            "_etag": "\"00005031-0000-0e00-0000-604042f80000\"",
+                "_attachments": "attachments/",
+                    "_ts": 1614824184
+}
