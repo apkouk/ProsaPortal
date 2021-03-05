@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,9 +6,9 @@ using Newtonsoft.Json;
 using ProsaPortal.Models;
 using ProsaPortal.Services;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
-
+using System.Net.Http;
+using System.Text;
 
 namespace ProsaPortal.Controllers
 {
@@ -26,14 +23,10 @@ namespace ProsaPortal.Controllers
         }
 
         public async Task<IActionResult> IndexAsync()
-        {
+        {    
             Item item = await _cosmosDbService.GetAsync("SELECT * FROM c where c.lang='en'");
-
             var cosmoDbDocument = await _cosmosDbService.GetDocument("SELECT * FROM c where c.id='" + item.Id + "'");
-                        
-            //var json = System.Text.Json.JsonSerializer.Serialize(cosmoDbDocument.content);
-            //System.IO.File.WriteAllText("wwwroot\\scripts\\content.js", "var content = " + json);
-             
+                
             ViewData["content"] = cosmoDbDocument;
             return View();         
         }
