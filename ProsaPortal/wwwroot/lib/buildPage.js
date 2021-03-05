@@ -24,6 +24,9 @@ function buildPage() {
     // console.log("Page built!");
 }
 
+
+
+
 //var textContent;
 //function loadTextContent(lang) {
 //    if (lang == undefined)
@@ -75,11 +78,39 @@ function addHandlers() {
         $("#lang-ca").addClass("lang-selected");
     });
 
-    $("#lang-es").click(function () {
-        /*loadTextContent("es");*/
-        buildPage();
-        $("#lang-es").addClass("lang-selected");
+    $("#sendemail").click(function () {
+       
+        $.ajax({
+            type: 'POST',
+            url: "https://prod-05.francecentral.logic.azure.com:443/workflows/5ea0964804a04638af81aa505ea68bd4/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=D1lXGLofMAl_rUPyogmMbYXYGx933EId-0tzIAcwd8Q",
+            data: JSON.stringify({
+                "telf": "1111111",
+                "text": "hohohohohoohoh",
+                "name": "paocoooror"
+            }),
+            dataType: "json",
+            contentType: 'application/json',
+            success: function (data) {
+                // Success message
+                $('#success').html("<div class='alert alert-success'>");
+                $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success > .alert-success')
+                    .append("<strong>Your message has been sent. </strong>");
+                $('#success > .alert-success')
+                    .append('</div>');
+                //clear all fields
+                $('#contactForm').trigger("reset");
+            },
+            failure: function () {
+                console.log(data);
+            }
+        });
     });
+
+
+
+
 }
 
 

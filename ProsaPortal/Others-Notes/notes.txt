@@ -33,3 +33,4 @@ Añadir logs y verlos en el azure
 DevOps
 ---------
 Montar rama de dev y poner un CI/CD in place
+-> Se trabaja en dev y cuando se hace la pull request desde github para mergear a mastar despliegua la web automaticamente
