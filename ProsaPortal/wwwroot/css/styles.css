@@ -213,15 +213,15 @@ hr {
 }
 
 .catalonia {
-    background-image: url("../src/images/flag-catalonia.png");
+    background-image: url("https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/flag-catalonia.png");
 }
 
 .uk {
-    background-image: url("../src/images/flag-uk.png");
+    background-image: url("https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/flag-uk.png");
 }
 
 .spain {
-    background-image: url("../src/images/flag-spain.png");
+    background-image: url("https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/flag-spain.png");
 }
 
 .navbar-default .navbar-brand {

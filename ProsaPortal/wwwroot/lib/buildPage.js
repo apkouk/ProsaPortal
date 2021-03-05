@@ -48,15 +48,15 @@ function buildPage() {
 
 var extensionImage = "";
 function canUseWebP() {
-    var elem = document.createElement('canvas');
-    if (!!(elem.getContext && elem.getContext('2d'))) {
-        extensionImage = ".webp";
-    }
-    else {
+    //var elem = document.createElement('canvas');
+    //if (!!(elem.getContext && elem.getContext('2d'))) {
+    //    extensionImage = ".webp";
+    //}
+    //else {
         extensionImage = ".png";
-    }
-    $("#contactForm").css("background-image", "url(src/images/worldMap" + extensionImage + ")");
-    $(".introImage").css("background-image", "url('src/images/codecode1024b" + extensionImage);
+  /*  }*/
+    $("#contactForm").css("background-image", "url(https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/worldMap" + extensionImage + ")");
+    $(".introImage").css("background-image", "url('https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/codecode1024b" + extensionImage);
 }
 
 function addHandlers() {
@@ -174,7 +174,7 @@ function services() {
             class: "service-image"
         });
         var serviceImage = $("<img>", {
-            src: "src/images/" + service.image + extensionImage,
+            src: "https://prosaportalstorage2021.blob.core.windows.net/prosa-portal-web/" + service.image + extensionImage,
             class: "serviceImg",
             alt: service.image
         });
