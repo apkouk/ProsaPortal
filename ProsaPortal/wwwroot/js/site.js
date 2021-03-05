@@ -4,4 +4,4 @@
 // Write your JavaScript code.
 
 
-console.log("tuputamadrecabrón");
+console.log("site.js on wwwroot Loaded!");
